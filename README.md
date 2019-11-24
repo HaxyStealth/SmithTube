@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/HaxyStealth/SmithTube/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/HaxyStealth/SmithTube/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+<head>
+<title>SmithTube</title>
+</head>
+<body>
+<h1>SmithTube</h1>
+<div>=============================================</div>
+<div>Sample Videos (not actucally the only videos here)</div>
+<h3>Custom-made YouTube basically.</h3>
+<iframe width="900" height="723" src="https://www.youtube.com/embed/P6jiQsRyBwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="900" height="723" src="https://www.youtube.com/embed/BJvhaDT-5Kg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="900" height="723" src="https://www.youtube.com/embed/t1p-Ock5UXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="900" height="723" src="https://www.youtube.com/embed/v53_hTtck8c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div>=============================================</div>
+<h1>Register</h1>
+<div>Username: <input type="text" name="uname"></div>
+<div>Password: <input type="text" name="pword"></div>
+<input type="button" onclick="tellok()" value="Register">
+<script>function tellok() {
+alert("Is this username and password ok to you?");
+}
+</script>
+</body>
+</html>
