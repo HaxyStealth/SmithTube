@@ -1,6 +1,5 @@
 <html>
 <head>
-<title>SmithTube</title>
 </head>
 <body>
 <h1>SmithTube</h1>
